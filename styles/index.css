@@ -42,6 +42,10 @@ body {
 }
 #AddToCart {
     background-color: darkorange;
+    height: 45px;
+    width: 330px;
+    padding-left: 110px;
+    padding-top: 10px;
 }
 #NumberOfProducts {
     width: 28px;
@@ -52,4 +56,13 @@ body {
     width: 20px;
     color: white;
 }
+@media (min-width: 1024px){
+    #theHead {
+        display: flex;
+        padding: 200px;
 
+    }
+    #shoesInfo {
+        width: 40%;
+    }
+}

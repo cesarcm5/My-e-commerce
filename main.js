@@ -1,9 +1,10 @@
+// Amount of products
 
 let minus = document.querySelector('#minus')
 let plusBtn = document.querySelector('#plus')
 let NumberProducts = document.querySelector('#NumberOfProducts')
 
-let CartProducts = document.querySelector('#Cart')
+let CartProducts = document.querySelector('#AddToCart')
 
 let InputNumber = 0;
 
@@ -28,9 +29,13 @@ minus.addEventListener('click', () => {
 
 })
 
+// Add the amount of products
+
+let MyProducts = document.querySelector('#shoes')
 
 CartProducts.addEventListener('click', () => {
-    CartProducts.value = NumberProducts.value
+    MyProducts.value = CartProducts.value;
+    console.log(MyProducts.value)
 })
 
 
